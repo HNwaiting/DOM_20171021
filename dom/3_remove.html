@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>remove</title>
+</head>
+<body>
+<div id="div1">
+    <p>this is one</p>
+    <p>this is two</p>
+    <button onclick="remove()">点击此处移除网页内容</button>
+</div>
+<script>
+    function remove() {
+        var html = document.getElementsByTagName('html')[0];
+        document.removeChild(html);
+    }
+
+
+</script>
+</body>
+</html>
